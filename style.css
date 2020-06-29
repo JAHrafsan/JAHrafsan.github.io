@@ -1,0 +1,120 @@
+.top-line {
+  height: 10px;
+}
+
+.page-wrapper {
+  min-height: calc(100vh - 10px);
+  background: #DAE3E7;
+}
+
+.footer {
+  height: 75px;
+}
+
+.avatar {
+  height: 150px;
+  width: 150px;
+  background: url("https://themes.3rdwavemedia.com/demo/developer/assets/images/profile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.icon:nth-child(4) {
+  margin-right: 0;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #545E68;
+}
+
+.title {
+  color: #a8a8a8;
+  font-size: 1.5rem;
+}
+
+#body-content {
+  min-height: 100%;
+  width: 100%;
+}
+
+.content-block {
+  padding: 1.5rem;
+}
+
+.body-text {
+  font-size: 1rem;
+}
+
+.lg-link {
+  font-size: 2rem;
+}
+
+a.lg-link {
+  text-align: center;
+}
+
+a.project-link {
+  color: #a8a8a8;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
+
+.project-text {
+  font-size: 1rem;
+  line-height: 1.1rem;
+}
+
+.work-title {
+  color: #a8a8a8;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
+
+.testimonial {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.testimonial::before {
+  content: '';
+  border-left: 4px solid #69CA8E;
+  position: absolute;
+  left: 0px;
+  top: 0;
+  height: 100%;
+}
+
+.testimonial-author {
+  font-size: .85rem;
+  font-weight: bold;
+  line-height: 1rem;
+  color: grey;
+  padding-left: 1rem;
+}
+
+.testimonial-author-title {
+  font-size: .85rem;
+  line-height: 1rem;
+  color: grey;
+  padding-left: 1rem;
+}
